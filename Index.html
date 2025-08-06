@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Cuadros</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/042/818/355/non_2x/8bit-pixel-graphic-blue-sky-background-with-clouds-vector.jpg');
+            /* Cambia 'fondo.jpg' por el nombre de tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 8px #000;
+            font-size: 4em;
+        }
+
+        .grid-7 {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 30px;
+            max-width: 1700px;
+            margin: 0 auto 30px auto;
+        }
+
+        .card-btn {
+            background: rgba(255, 255, 255, 0.8);
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            width: 220px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .card-text {
+            font-size: 1.1em;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nuestra Historia</h1>
+        <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+            <a href="pagina1.html" class="card-btn">
+                <img src="img1.jpg" alt="Imagen 1" class="card-img">
+                <div class="card-text">Texto 1</div>
+            </a>
+        </div>
+        <div class="grid-7">
+            <a href="pagina2.html" class="card-btn">
+                <img src="img2.jpg" alt="Imagen 2" class="card-img">
+                <div class="card-text">Texto 2</div>
+            </a>
+            <a href="pagina3.html" class="card-btn">
+                <img src="img3.jpg" alt="Imagen 3" class="card-img">
+                <div class="card-text">Texto 3</div>
+            </a>
+            <a href="pagina4.html" class="card-btn">
+                <img src="img4.jpg" alt="Imagen 4" class="card-img">
+                <div class="card-text">Texto 4</div>
+            </a>
+            <a href="pagina5.html" class="card-btn">
+                <img src="img5.jpg" alt="Imagen 5" class="card-img">
+                <div class="card-text">Texto 5</div>
+            </a>
+            <a href="pagina6.html" class="card-btn">
+                <img src="img6.jpg" alt="Imagen 6" class="card-img">
+                <div class="card-text">Texto 6</div>
+            </a>
+            <a href="pagina7.html" class="card-btn">
+                <img src="img7.jpg" alt="Imagen 7" class="card-img">
+                <div class="card-text">Texto 7</div>
+            </a>
+            <a href="pagina8.html" class="card-btn">
+                <img src="img8.jpg" alt="Imagen 8" class="card-img">
+                <div class="card-text">Texto 8</div>
+            </a>
+        </div>
+        <div class="grid-7">
+            <a href="pagina9.html" class="card-btn">
+                <img src="img9.jpg" alt="Imagen 9" class="card-img">
+                <div class="card-text">Texto 9</div>
+            </a>
+            <a href="pagina10.html" class="card-btn">
+                <img src="img10.jpg" alt="Imagen 10" class="card-img">
+                <div class="card-text">Texto 10</div>
+            </a>
+            <a href="pagina11.html" class="card-btn">
+                <img src="img11.jpg" alt="Imagen 11" class="card-img">
+                <div class="card-text">Texto 11</div>
+            </a>
+            <a href="pagina12.html" class="card-btn">
+                <img src="img12.jpg" alt="Imagen 12" class="card-img">
+                <div class="card-text">Texto 12</div>
+            </a>
+            <a href="pagina13.html" class="card-btn">
+                <img src="img13.jpg" alt="Imagen 13" class="card-img">
+                <div class="card-text">Texto 13</div>
+            </a>
+            <a href="pagina14.html" class="card-btn">
+                <img src="img14.jpg" alt="Imagen 14" class="card-img">
+                <div class="card-text">Texto 14</div>
+            </a>
+            <a href="pagina15.html" class="card-btn">
+                <img src="img15.jpg" alt="Imagen 15" class="card-img">
+                <div class="card-text">Texto 15</div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
